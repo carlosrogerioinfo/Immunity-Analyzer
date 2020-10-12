@@ -1,9 +1,7 @@
 # Immunity-Analyzer
 
 
-
-
-O Immunity-Analyzer é um Aplicativo inteligente para cálculo da Vitamina D3. Com este aplicativo, tanto o Profissional de Saúde quanto o público geral consegue verificar dosagem ideal de Vitamina D3, Vitamina K2 e Magnésio com base nos parâmetros de exames, ou ainda apenas pelo peso corporal. O Aplicativo SmartD3 foi desenvolvido pela Life Medicine and Nutrition, e possibilita melhorar imunidade, otimizando seus níveis de Vitamina D3 e ainda melhorando a parte bioquímica envolvida no metabolismo da Vitamina D3 com as proporções corretas da Vitamina K2 e do Magnésio em relação à dosagem de Vitamina D3.
+O Immunity-Analyzer é um Aplicativo inteligente para cálculo da Vitamina D3. Com este aplicativo, tanto o Profissional de Saúde quanto o público geral consegue verificar dosagem ideal de Vitamina D3, Vitamina K2 e Magnésio com base nos parâmetros de exames, ou ainda apenas pelo peso corporal. O Aplicativo Immunity-Analyzer possibilita melhorar a imunidade, otimizando os níveis de Vitamina D3 e ainda melhorando a parte bioquímica envolvida no metabolismo da Vitamina D3 com as proporções corretas da Vitamina K2 e do Magnésio em relação à dosagem de Vitamina D3.
 
 De forma extremamente útil e simples de usar, o SmartD3 possui uma interface otimizada e intuitiva. O SmartD3 foi desenvolvido com base em versões de plataformas já utilizadas largamente na Alemanha. Diversos pontos de melhorias foram detectados e a partir disso uma nova versão foi desenvolvida usando o que há de mais moderno nesse tipo de cálculo, levando-se em consideração as proporções de dosagens para elevar os níveis séricos da vitamina D3 em 1 ng/ml, tendo ainda o cuidado do ajuste da taxa de perda. Todas as referências e dados científicos estão disponíveis para consulta na sessão de informações e referências, no próprio aplicativo.
 
