@@ -1,4 +1,4 @@
-# Immunity-Analyzer
+# Immunity-Analyzer (Aplicativo Android desenvolvido em plataforma nativa)
 
 
 O Immunity-Analyzer é um Aplicativo inteligente para análise e ajuste de parâmetros da imunidade com base na Vitamina D3, que na verdade, não se trata de vitamina e sim, um potente hormônio esteroide com propriedades pleiotrópicas de amplo espectro. Com este aplicativo, tanto o Profissional de Saúde quanto o público geral consegue verificar dosagem ideal de Vitamina D3, Vitamina K2 e Magnésio com base nos parâmetros de exames, ou ainda apenas pelo peso corporal. O Aplicativo Immunity-Analyzer possibilita melhorar a imunidade, otimizando os níveis de Vitamina D3 e ainda melhorando a parte bioquímica envolvida no metabolismo da Vitamina D3 com as proporções corretas da Vitamina K2 e do Magnésio em relação à dosagem de Vitamina D3.
