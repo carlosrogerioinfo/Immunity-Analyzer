@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- GENERAL -->
+    <string name="app_name">SmartD3 Lite</string>
+    <string name="general_single_dialog_legal_advice_required">Para usar o aplicativo é necessário aceitar os termos de uso no Aviso Legal</string>
+    <string name="general_single_dialog_only_pro_version">Esta e outras funcionalidades avançadas estarão disponíveis apenas na versão PRO</string>
+    <string name="general_single_dialog_only_pro_version_calculation">Esta e outras funcionalidades avançadas estarão disponíveis apenas na versão PRO. Para cálculo nesta versão apenas está disponível a opção de calculo por peso.</string>
+    <string name="general_single_dialog_title">Mensagem</string>
+    <string name="general_single_dialog_title_suggestion">Contato</string>
+
+    <string name="general_label_btn_clear">Limpar</string>
+    <string name="general_label_btn_close">Fechar</string>
+    <string name="general_label_btn_calc">Calcular</string>
+    <string name="general_label_btn_info">Informações de Uso</string>
+    <string name="general_label_btn_orcament">Solicitar Orçamento</string>
+    <string name="general_label_btn_graphics">Exibir Gráfico</string>
+    <string name="general_label_btn_ok_understand">OK, ENTENDI</string>
+    <string name="general_label_btn_legal_advice_agree">Eu li, e\naceito os termos</string>
+    <string name="general_label_btn_legal_advice_desagree">Eu li, e NÃO\naceito os termos</string>
+    <string name="general_label_graphic_d3">25 OH VITAMINA D3</string>
+    <string name="general_label_graphic_imc">Gráfico IMC</string>
+
+    <!-- ORCAMENT EXCEEDED -->
+    <string name="param_msg_qtd_orcament_exceded">No momento, só é possível realizar dois orçamentos a cada dois dias. Estamos trabalhando para poder ter capacidade de aumentar a quantidade de solicitações de orçamento. Contamos com sua compreesão.</string>
+
+    <!-- SINGLE DIALOG CONNECTION ERROR -->
+    <string name="general_single_dialog_title_connection_error">Erro de conexão</string>
+    <string name="general_single_dialog_msg_connection_error">Para solicitar um orçamento, é necessário estar conectado à internet, por favor, verifique se sua rede de dados está ativa ou ative seu acesso a rede Wi-fi.</string>
+
+    <!-- DRAWABLE -->
+    <string name="open_navigation_bar">Abrir Naveação</string>
+    <string name="close_navigation_bar">Fechar Navegação</string>
+
+    <!-- MENU DRAWABLE -->
+    <string name="menu_drawable_legal_advice">Aviso Legal</string>
+    <string name="menu_drawable_suggestions">Dúvidas e Sugestões</string>
+    <string name="menu_drawable_telegram">Grupo no Telegram</string>
+    <string name="menu_drawable_others_apps">Outros Aplicativos</string>
+
+    <!-- TOOLBAR LABEL -->
+    <string name="toolbar_main_label">Dashboard</string>
+    <string name="toolbar_children_label">SD3 | Dosagem Pediátrica</string>
+    <string name="toolbar_adult_label">SD3 | Cálculo de Dosagem</string>
+    <string name="toolbar_urine24_label">SD3 | Calciúria de 24h</string>
+    <string name="toolbar_convertion_label">SD3 | Conversões</string>
+    <string name="toolbar_proportion_label">SD3 | Proporção D3/K2</string>
+    <string name="toolbar_legal_advice_label">SmartD3 Lite</string>
+    <string name="toolbar_orcament_label">SD3 | Orçamento Manipulação</string>
+    <string name="toolbar_graphic_label">SD3 | Gráficos</string>
+    <string name="toolbar_pharmacy_label">SD3 | Farmácias Especializadas</string>
+
+    <!-- MAIN SCREEN -->
+    <string name="main_label_children">Cálculo \nPediátrico</string>
+    <string name="main_label_adults">Cálculo \nAdulto</string>
+    <string name="main_label_urine24h">Calciuria \nde 24h</string>
+    <string name="main_label_convertion">Conversões \nnmol/L - ng/ml</string>
+    <string name="main_label_proportion">Proporção \nK2/D3</string>
+    <string name="main_label_legal_advice">Aviso \nLegal</string>
+    <string name="main_label_footer">\nImmunity Parameter Analyzer</string>
+    <string name="main_single_dialog_contact">\n\nÉ uma honra e satisfação para nós termos você como usuário. \n\nCom o objetivo de melhorar cada vez mais, para lhe proporcionar uma experiência satisfatória, deixamos aqui nosso e-mail de contato para dúvidas e sugestões.\n\nE-mail:\nlife.medicineandnutrition@usa.com</string>
+
+    <!-- CHILDREN LABELS -->
+    <string name="children_label_weight">Peso</string>
+    <string name="children_label_hint_weight">Peso atual (kg)</string>
+    <string name="children_label_height">Altura</string>
+    <string name="children_label_hint_height">Altura atual (cm)</string>
+    <string name="children_label_imc">Calcular IMC ?</string>
+    <string name="children_label_titled3">Vitamina D3 </string>
+    <string name="children_label_dailydose">Dose diária</string>
+    <string name="children_label_result_1">Não exceder a dosagem recomendada</string>
+    <string name="children_label_result_2">Doses superiores, consulte seu pediatra</string>
+
+    <!-- CHILDREN SINGLE DIALOG -->
+    <string name="children_single_dialog_limitweight">Peso máximo para ser informado: \n50 kg. Acima disso, utilize o cálculo de ajuste de dose adulto.</string>
+    <string name="children_single_dialog_required_fields">Todos os campos devem ser preenchidos. Tente novamente!</string>
+    <string name="children_single_dialog_convertion">Resultados da vitamina d convertidos em miligramas. \n\nDose diária: </string>
+    <string name="children_single_dialog_title_dialog">Smart D3 | Informação</string>
+
+    <!-- CHILDREN GRAPHICS -->
+    <string name="children_graphic_height">Altura (cm)</string>
+    <string name="children_graphic_weight">Peso (kg)</string>
+    <string name="children_graphic_normal_weight">\u0020( Peso Normal )</string>
+    <string name="children_graphic_low_weight">\u0020( Baixo peso )</string>
+    <string name="children_graphic_high_weight">\u0020( Sobrepeso )</string>
+    <string name="children_graphic_obesity_I"> ( Obesidade Classe I )</string>
+    <string name="children_graphic_obesity_II">\u0020 ( Obesidade Classe II )</string>
+    <string name="children_graphic_obesity_III">\u0020 ( Obesidade Classe III )</string>
+    <string name="children_graphic_imc_info">IMC ideal entre 18,5 até 24,9</string>
+
+    <!-- ADULTS LABELS | PARA ESPAÇOS USE: \u0020-->
+    <string name="adult_label_options">Opções</string>
+    <string name="adult_label_calc_weight">Calcular apenas pelo peso ?</string>
+    <string name="adult_label_anticoagulant">Usa anticoagulante oral ?</string>
+    <string name="adult_label_weight">Peso</string>
+    <string name="adult_label_hint_actual_weight">Peso atual (kg)</string>
+    <string name="adult_label_seric_d3_actual">Dosagem Sanguínea de Vitamina D3\nAtual</string>
+    <string name="adult_label_hint_seric_d3_actual">Nível atual (ng/ml)</string>
+    <string name="adult_label_seric_d3_target">Dosagem Sanguínea de Vitamina D3\nDesejada</string>
+    <string name="adult_label_hintseric_d3_target">Nível desejado (ng/ml)</string>
+    <string name="adult_label_time_treatment">Período de Suplementação Desejado</string>
+    <string name="adult_label_titled3">Vitamina D3</string>
+    <string name="adult_label_title_daily_dosed3">Dose diária</string>
+    <string name="adult_label_title_manteiningd3">Manutenção</string>
+    <string name="adult_label_show_miligrams">Exibir em miligramas</string>
+    <string name="adult_label_title_k2">Vitamina K2 MK7</string>
+    <string name="adult_label_title_daily_dosek2">Dose diária</string>
+    <string name="adult_label_title_manteiningk2">Manutenção</string>
+    <string name="adult_label_title_magnesium">Magnésio Glicina</string>
+    <string name="adult_label_title_daily_dose_mg">Dose diária e manutenção</string>
+
+    <!-- ADULTS SINGLE DIALOG, TEXT, ETC -->
+    <string name="adult_dropdown_period">Selecione o período</string>
+    <string name="adult_dropdown_period45">45 dias</string>
+    <string name="adult_dropdown_period60">60 dias</string>
+    <string name="adult_dropdown_period90">90 dias</string>
+    <string name="adult_dropdown_period120">120 dias</string>
+
+    <string name="adult_single_dialog_required_fields">Todos os campos devem ser preenchidos. Tente novamente!</string>
+    <string name="adult_single_dialog_seric_level_above100">Nesta opção, só é possível calcular até 100 ng/ml. Para níveis acima de 100 ng/ml, acesse a opção de Altas doses de Vitamina D3.</string>
+    <string name="adult_single_dialog_min_weight">Peso mínimo para cálculos e ajustes é de 30 kg!</string>
+    <string name="adult_single_dialog_show_miligrams_1">Resultados da vitamina d convertidos em miligramas.\n\nDose diária:\u0020</string>
+    <string name="adult_single_dialog_show_miligrams_2">Manutenção:\u0020</string>
+
+    <string name="adult_single_dialog_anticoagulant_1">ATENÇÃO: A sua dose recomendada da vitamina K2 seria de \u0020</string>
+    <string name="adult_single_dialog_anticoagulant_2">porém, devido ao uso de anticoagulante, não é recomendado usar dosagens de vitamina K2 acima de 45 mcg. \n\nPara dosagens acima de 45 mcg em uso de anticoagulantes é recomendado consultar seu médico ou nutricionista.</string>
+
+    <string name="adult_label_title_daily_dose_by">Dose diária por (</string>
+    <string name="adult_label_title_manteining_dose_by">Manutenção diária \n após os (</string>
+    <string name="adult_label_title_days">\u0020 dias)</string>
+    <string name="adult_label_title_daily_dose_text">Dose diária</string>
+    <string name="adult_label_title_manteining_dose_text">Manutenção diária</string>
+
+    <!-- DIALOG RECOMENDED LEVEL -->
+    <string name="adult_single_dialog_complement_text">Em alguns países não há opinião clara sobre essa questão. Embora alguns Instituto de Medicina considerem suficiente um nível de 30 ng/ml.\n\n Na Alemanha, a iniciativa de Saúde de Base recomenda um nível de vitamina D entre 40 a 60 ng/ml. \n\nO médico alemão, Dr. Raimund Von Helden está convencido de que um nível satisfatório e ideal de vitamina D está entre 50 a 90 ng/ml.</string>
+    <string name="adult_single_dialog_recomended_level_title">Níveis de Vitamina D3</string>
+    <string name="adult_single_dialog_recomended_level_msg">\n• De 0 a 10 ng/ml: Deficiência grave\n\n • De 11 a 30 ng/ml: Insuficiência\n\n • De 31 a 50 ng/ml: Níveis Ideais\n\n • De 51 a 100 ng/ml: Níveis Ótimos\n\n • Acima de 100 ng/ml: Superdosagem\n\n\n</string>
+
+    <!-- DIALOG OPTIONS INFORMATION -->
+    <string name="adult_single_dialog_options_info_title">Informações</string>
+    <string name="adult_single_dialog_options_info_msg">\nPara uma análise mais precisa é necessário ter o resultado da vitamina D sanguíneo, porém, caso não possua exames da vitamina D sanguíneo, é possível calcular usando apenas o peso corporal como parâmetro.\n\n Mas, recomendamos posteriormente refazer o cálculo com o resultado do exame em mãos.\n\n Caso esteja fazendo uso de algum anticoagulnate oral, é necessário informar, clicando na opção correspondente.\n\n</string>
+
+    <!-- DIALOG DOSAGE25OHD3 -->
+    <string name="adult_single_dialog_dosage25ohd3_title">Resultado do Exame</string>
+    <string name="adult_single_dialog_dosage25ohd3_msg">\nAqui deve ser informado o valor do resultado do exame da vitamina D3.\n\n O mesmo tipo de exame pode ter um nome diferente em cada laboratório.\n\n • 25 OH Vitamina D\n • 25 HIDROXI D3\n • Colecalciferol\n\n O resultado do exame é expresso em ng/ml. Caso o laboratório expresse esse resultado em nmol/L, será necessário realizar a conversão para ng/ml.</string>
+
+    <!-- DIALOG INFO PERIOD -->
+    <string name="adult_single_dialog_info_period_title">Período de Suplementação</string>
+    <string name="adult_single_dialog_info_period_msg">\nEscolha o período de suplementação para ajustar ou corrigir seus níveis de Vitamina D3 para valores mais otimizados, que possibilite melhorar a imunidade.\n\n Os períodos disponíveis são:\n\n • 45 dias\n • 60 dias\n • 90 dias\n • 120 dias\n\n A correção de deficiência ou adequação dos níveis de vitamina D sanguíneos deve ser realizada de forma responsável.\n\n Estudos apontam que os melhores resultados são obtidos quando a suplementação é feita de forma consistente e gradual.</string>
+
+    <string name="adult_switch_option_round">ATENÇÃO: Por questões de segurança, recomendamos manter a opção de arredondar sempre habilitada. Assim, as dosagens serão ajustadas para menos, dando uma segurança maior.</string>
+
+    <!-- ADULTS GRAPHICS -->
+    <string name="adult_graphic_min">Vlr. Min</string>
+    <string name="adult_graphic_max">Vlr. Max</string>
+    <string name="adult_graphic_result">Resultado</string>
+
+    <string name="adult_graphic_result_label">Resultado: \u0020</string>
+    <string name="adult_graphic_result_deficiency">" \n( Deficiência de vitamina D3 )"</string>
+    <string name="adult_graphic_result_insuficiency">" \n( Insuficiência de vitamina D3 )"</string>
+    <string name="adult_graphic_result_good">" \n( Bons níveis de vitamina D3 )"</string>
+    <string name="adult_graphic_result_optimum">" \n( Ótimos níveis de vitamina D3 )"</string>
+    <string name="adult_graphic_result_excelent">" \n( Níveis excelentes de vitamina D3 )"</string>
+    <string name="adult_graphic_result_overload">" \n( Níveis de Toxicidade ) \nRiscos de Falhas ou Danos Renais"</string>
+
+    <!-- CALIURIA DE 24H LABELS | PARA ESPAÇOS USE: \u0020-->
+    <string name="urine24h_label">Calciuria de 24 horas</string>
+    <string name="urine24h_label_hint_result">Resultado (mg/24h)</string>
+    <string name="urine24h_label_hint_volume">Volume da urina (L)</string>
+
+    <string name="urine24h_label_title_information">Informações</string>
+    <string name="urine24h_label_title_calcium_urine">Cálcio na urina</string>
+    <string name="urine24h_label_title_volume_urine">Volume total da urina</string>
+    <string name="urine24h_label_title_calcium_liter">Cálcio /L</string>
+
+    <string name="urine24h_label_title_result_title">Resultado</string>
+    <string name="urine24h_label_title_result_optimized_1">Parabéns, resultados otimizados</string>
+    <string name="urine24h_label_title_result_optimized_3">dentro dos valores desejados</string>
+
+    <string name="urine24h_label_title_result_fixed_urine_are">Seus níveis de cálcio na urina estão</string>
+    <string name="urine24h_label_title_result_fixed_alert_1">Atenção, resultados alterados</string>
+    <string name="urine24h_label_title_result_fixed_alert_3">médico ou nutricionista para avaliar.</string>
+    <string name="urine24h_label_title_result_above_2">acima dos valores ideais, procure um</string>
+    <string name="urine24h_label_title_result_below_2">abaixo dos valores ideais, procure um</string>
+
+    <!-- DIALOG CALIURIA DE 24H -->
+    <string name="urine24h_single_dialog_title">Smart D3 | Informação</string>
+    <string name="urine24h_single_dialog_msg">\nEscolha o período de suplementação para ajustar ou corrigir seus níveis de Vitamina D3 para valores mais otimizados, que possibilite melhorar a imunidade.\n\n Os períodos disponíveis são:\n\n • 45 dias\n • 60 dias\n • 90 dias\n • 120 dias\n\n A correção de deficiência ou adequação dos níveis de vitamina D sanguíneos deve ser realizada de forma responsável.\n\n Estudos apontam que os melhores resultados são obtidos quando a suplementação é feita de forma consistente e gradual.</string>
+
+    <!-- CALIURIA DE 24H GRAPHICS -->
+    <string name="urine24h_label_graphic">Gráfico Calciuria de 24 horas</string>
+    <string name="urine24h_label_graphic_ideal">Relação ideal Cálcio/L na urina\nentre 100 até 150 mg/L</string>
+
+    <string name="urine24h_graphic_calcium_urine">Cálcio na Urina (mg/24h)</string>
+    <string name="urine24h_graphic_relation_calcium">Relação (Cálcio/L)</string>
+    <string name="urine24h_graphic_result">Sua relação Cálcio/L: \u0020</string>
+
+    <!-- CONVERTION LABELS | PARA ESPAÇOS USE: \u0020-->
+    <string name="convertion_label">Conversão nmol/L para ng/ml</string>
+    <string name="convertion_label_hint_converton">nmol/L</string>
+    <string name="convertion_label_btn_convert">Converter</string>
+
+    <!-- PROPORTION LABELS | PARA ESPAÇOS USE: \u0020-->
+    <string name="proportion_label">Dosagem da Vitamina D3 (UI)</string>
+    <string name="proportion_label_hint_converton">UI</string>
+
+
+</resources>

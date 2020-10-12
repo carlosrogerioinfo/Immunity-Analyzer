@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "828575370650",
+    "firebase_url": "https://smart-d3.firebaseio.com",
+    "project_id": "smart-d3",
+    "storage_bucket": "smart-d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828575370650:android:b969ee6a64d5efe7007e23",
+        "android_client_info": {
+          "package_name": "com.biosite.chronus.adjustvitamindv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828575370650-reff7v4oqe9isqsda7bmsju6ferum7dt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0bTb5ojlW-QiDc1sESU8mnx7xln-EZJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828575370650-reff7v4oqe9isqsda7bmsju6ferum7dt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828575370650:android:6325229f9f67a696007e23",
+        "android_client_info": {
+          "package_name": "com.life.medicineandnutrition.smartd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828575370650-reff7v4oqe9isqsda7bmsju6ferum7dt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0bTb5ojlW-QiDc1sESU8mnx7xln-EZJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828575370650-reff7v4oqe9isqsda7bmsju6ferum7dt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828575370650:android:7eb58e1e264c12cc007e23",
+        "android_client_info": {
+          "package_name": "com.life.medicineandnutrition.smartdlitebr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828575370650-reff7v4oqe9isqsda7bmsju6ferum7dt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0bTb5ojlW-QiDc1sESU8mnx7xln-EZJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828575370650-reff7v4oqe9isqsda7bmsju6ferum7dt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProportionK2D3Activity">
+
+    <ImageView
+        android:id="@+id/imageBackground"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button_rouded"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_background_white" />
+
+    <ScrollView
+        android:id="@+id/scrollFieldsConv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.297"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.593">
+
+        <LinearLayout
+            android:id="@+id/linearFieldConv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <!-- PESO -->
+            <TableLayout
+                android:id="@+id/containerProportion"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/button_rouded_white"
+                android:visibility="visible">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        android:id="@+id/textLabelkgProportion"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/open_sans"
+                        android:text="@string/proportion_label"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/tilProportion"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:paddingBottom="8dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/textProportion"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/open_sans_light"
+                            android:hint="@string/proportion_label_hint_converton"
+                            android:inputType="number"
+                            android:selectAllOnFocus="true"
+                            android:singleLine="true" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/containerInformationProportion"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:visibility="gone">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="right">
+
+                    <TextView
+                        android:id="@+id/textView5Proportion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginBottom="12dp"
+                        android:fontFamily="@font/open_sans"
+                        android:text="Dosagem da Vitamina K2"
+                        android:textAlignment="textEnd"
+                        android:textColor="#9A9DA1"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="right">
+
+                    <TextView
+                        android:id="@+id/textView10Proportion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="32dp"
+                        android:fontFamily="@font/open_sans_light"
+                        android:text=""
+                        android:textAlignment="textEnd"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textResultProportion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:fontFamily="@font/open_sans_light"
+                        android:text="00000000"
+                        android:textAlignment="textEnd"
+                        android:textSize="18sp" />
+                </TableRow>
+
+            </TableLayout>
+
+            <!-- BOTÕES -->
+            <TableLayout
+                android:id="@+id/containerButtonPed"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="64dp"
+                android:visibility="visible">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/button3Ped"
+                        style="@android:style/Widget.DeviceDefault.Light.Button"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_rouded_clear"
+                        android:textColor="#FFFFFF"
+                        android:onClick="ClearAll"
+                        android:text="@string/general_label_btn_clear"
+                        android:fontFamily="@font/open_sans"
+                        android:textSize="16sp"
+                        android:textAllCaps="false"
+                        tools:layout_editor_absoluteX="36dp"
+                        tools:layout_editor_absoluteY="529dp" />
+
+                    <Button
+                        android:id="@+id/btnCalculation3Ped"
+                        style="@android:style/Widget.DeviceDefault.Light.Button"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_rouded_calculate"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:onClick="ConvertToK2Proportion"
+                        android:text="@string/general_label_btn_calc"
+                        android:fontFamily="@font/open_sans"
+                        android:textSize="16sp"
+                        android:textAllCaps="false"
+                        tools:layout_editor_absoluteX="158dp"
+                        tools:layout_editor_absoluteY="529dp" />
+
+
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/pgProcess"
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large"
+        android:layout_width="89dp"
+        android:layout_height="77dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
